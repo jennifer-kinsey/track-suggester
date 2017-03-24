@@ -1,4 +1,15 @@
 $(document).ready(function(){
+   // click function that makes the question you just answered disappear
+  $(".form-group").change(function(){
+    var value = $(".form-control").val();
+    if(value==="0"){
+      alert("Select an option");
+    }else{
+    $(this).hide();
+    }
+  });
+
+  // submit function for taking values from quiz, turning them to variables, and then showing the result
   $("form#track-suggester").submit(function(event){
     event.preventDefault();
     $("form").hide();
@@ -10,10 +21,7 @@ $(document).ready(function(){
     var number3 = parseInt($("#question3").val());
     var number4 = parseInt($("#question4").val());
     var number5 = parseInt($("#question5").val());
-
     var total = number1 + number2 + number3 + number4 + number5;
-
-
 
     if(total >= 5 && total <= 6) {
       $("#ruby").show();
