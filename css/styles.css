@@ -63,3 +63,9 @@ blockquote {
   color: red;
   font-size: small;
 }
+
+.animate {
+  font-size: large;
+  width: 315px;
+  height: 200px;
+}

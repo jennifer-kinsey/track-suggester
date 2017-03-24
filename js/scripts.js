@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // If enter or tab is pressed on the name input form group, it will disappear
+  // If the name is not blank, it will disappear. If it is blank, it will warn you to put in a name.
   $("#nameBtn").click(function() {
     var name = $(".yourName").val();
     if(name !=="") {
@@ -11,6 +11,9 @@ $(document).ready(function(){
   });
 
    // click function that makes the question you just answered disappear
+
+   //Checks to see if all the form-groups are hidden, if so, it adds a class to the submit button to make it pop
+
   $(".form-group").change(function(){
     var value = $(".form-control").val();
     if(value==="0"){
@@ -18,7 +21,13 @@ $(document).ready(function(){
     }else{
     $(this).hide();
     }
+    if ($(".form-group:hidden").length === 5){
+      $("#submitButton").addClass("animate");;
+    }
   });
+
+
+
 
   // submit function for taking values from quiz, turning them to variables, and then showing the result
   $("form#track-suggester").submit(function(event){
