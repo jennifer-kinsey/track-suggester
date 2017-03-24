@@ -1,5 +1,20 @@
+body{
+  background-color: #f4feff;
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url("../img/jumbotron.jpg");
+  color: white;
+}
+
 .panel{
   display: none;
+}
+
+.btn{
+  background-color: #124496;
+  color: white;
 }
 
 #refresh{
