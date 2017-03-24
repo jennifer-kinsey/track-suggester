@@ -1,4 +1,15 @@
 $(document).ready(function(){
+
+  // If enter or tab is pressed on the name input form group, it will disappear
+  $("#nameBtn").click(function() {
+    var name = $(".yourName").val();
+    if(name !=="") {
+      $("#formGroup1").hide();
+    }else{
+      $("#yourNameIsBlank").append("***Enter your name, please");
+    }
+  });
+
    // click function that makes the question you just answered disappear
   $(".form-group").change(function(){
     var value = $(".form-control").val();
