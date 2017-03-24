@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("form#track-suggester").submit(function(event){
     event.preventDefault();
     $("form").hide();
-    var name = $("input#inputName").val();
+    var name = $("input.yourName").val();
     $(".yourName").text(name);
 
     var number1 = parseInt($("#question1").val());
