@@ -1,41 +1,53 @@
-body{
+body {
   background-color: #f4feff;
 }
 
-.jumbotron{
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+blockquote {
+  text-align: right;
+  font-size: 12px;
+}
+.jumbotron {
   text-align: center;
   background-image: url("../img/jumbotron.jpg");
   color: white;
 }
 
-.panel{
+.panel {
   display: none;
 }
 
-.btn{
+.btn {
   background-color: #124496;
   color: white;
   display: block;
   margin: 10px auto;
 }
 
-#refresh{
+.btn:hover {
+  color: white;
+  background-color: #127796;
+}
+
+#refresh {
   display: none;
 }
 
-.panel *{
+.panel * {
   text-align: center;
 }
 
-.panel img{
+.panel img {
   padding: 20px 0;
 }
 
-.panel{
+.panel {
   margin: 0 15px;
-}
-
-blockquote{
-  text-align: right;
-  font-size: 12px;
 }

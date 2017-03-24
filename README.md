@@ -1,6 +1,5 @@
 # _Programming Track Suggester_
 
-<hr>
 
 #### _Take a quiz on what you want out of coding and get suggested a coding track, 03/25/17_
 
@@ -13,8 +12,6 @@ _This is a basic quiz using if/else if/else logic. The quiz results return a cod
 ## GH Pages link:
 
 [link](http://example.com)
-
-<hr>
 
 ## Setup/Installation Requirements
 
