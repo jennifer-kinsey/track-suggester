@@ -21,7 +21,11 @@ $(document).ready(function(){
       $("#trackType").text("C#/.NET");
     }
     $("#result").show();
+    $("form").hide();
+  });
 
+  $('#reload').click(function() {
+    location.reload();
   });
 
 });
