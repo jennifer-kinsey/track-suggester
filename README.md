@@ -15,7 +15,7 @@ _This is a basic quiz using if/else if/else logic. The quiz results return a cod
 
 ## Setup/Installation Requirements
 
-* _Clone this repository
+* _Clone this repository_
 * _Open in Atom or your favorite text editor_
 * _Modify the code to your liking_
 
