@@ -13,7 +13,8 @@
       <h1>What track should you pursue?</h1>
     </div>
     <div class="container">
-      <form class="track-suggester">
+      <!--******FORM*********** -->
+      <form id="track-suggester">
         <!-- question 1 -->
         <div class="form-group">
           <p>What's your goal in learning to code?</p>
@@ -26,7 +27,7 @@
         <!-- question 2 -->
         <div class="form-group">
           <p>What platform do you want to develop for?</p>
-          <select class="form-control" id="question1">
+          <select class="form-control" id="question2">
           <option value="1">Games</option>
           <option value="2">Mobile</option>
           <option value="3">Web</option>
@@ -35,7 +36,7 @@
         <!-- question 3 -->
         <div class="form-group">
           <p>Are you more frontend-y or backend-y</p>
-          <select class="form-control" id="question1">
+          <select class="form-control" id="question3">
           <option value="1">Frontend</option>
           <option value="2">Backend</option>
           <option value="3">Both, please!</option>
@@ -44,7 +45,7 @@
         <!-- question 4 -->
         <div class="form-group">
           <p>What kind of company would you want to work for?</p>
-          <select class="form-control" id="question1">
+          <select class="form-control" id="question4">
           <option value="1">Small business</option>
           <option value="2">An enterprise</option>
           <option value="3">A startup</option>
@@ -53,13 +54,18 @@
         <!-- question 5 -->
         <div class="form-group">
           <p>How popular of a language do you want to learn?</p>
-          <select class="form-control" id="question1">
+          <select class="form-control" id="question5">
           <option value="1">Something niche</option>
           <option value="2">Popular</option>
           <option value="3">Something in the middle</option>
         </select>
         </div>
+        <button type="submit" class="btn">Get my track!</button>
       </form>
+      <!--******RESULT*********** -->
+      <div id="result">
+        <h2>You are <span id="trackType"></span>!</h2>
+      </div>
     </div>
 
   </body>
