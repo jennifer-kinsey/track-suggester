@@ -1,3 +1,7 @@
-#result{
+.panel{
+  display: none;
+}
+
+#refresh{
   display: none;
 }
