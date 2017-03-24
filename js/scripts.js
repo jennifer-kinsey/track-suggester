@@ -8,6 +8,10 @@ $(document).ready(function(){
     }else{
       $("#yourNameIsBlank").append("***Enter your name, please");
     }
+    if ($(".form-group:hidden").length === 5
+    && $("#formGroup1:hidden").length === 1){
+      $("#submitButton").addClass("animate");
+    }
   });
 
    // click function that makes the question you just answered disappear
@@ -21,13 +25,11 @@ $(document).ready(function(){
     }else{
     $(this).hide();
     }
-    if ($(".form-group:hidden").length === 5){
-      $("#submitButton").addClass("animate");;
+    if ($(".form-group:hidden").length === 5
+    && $("#formGroup1:hidden").length === 1){
+      $("#submitButton").addClass("animate");
     }
   });
-
-
-
 
   // submit function for taking values from quiz, turning them to variables, and then showing the result
   $("form#track-suggester").submit(function(event){
