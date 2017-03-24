@@ -46,17 +46,17 @@ $(document).ready(function(){
     var total = number1 + number2 + number3 + number4 + number5;
 
     if(total >= 5 && total <= 6) {
-      $("#ruby").show();
+      $("#ruby").fadeIn("slow");
     }else if(total >= 7 && total <= 9) {
-      $("#php").show();
+      $("#php").fadeIn("slow");
     }else if(total >= 10 && total <= 11) {
-      $("#java").show();
+      $("#java").fadeIn("slow");
     }else if(total >= 12 && total <= 13){
-      $("#css").show();
+      $("#css").fadeIn("slow");
     } else {
-      $("#c-sharp").show();
+      $("#c-sharp").fadeIn("slow");
     }
-    $("#refresh").show();
+    $("#refresh").fadeIn("slow");;
   });
 
   $('#reload').click(function() {

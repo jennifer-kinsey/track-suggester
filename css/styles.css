@@ -15,6 +15,7 @@ blockquote {
   text-align: right;
   font-size: 12px;
 }
+
 #quizHeading {
   text-align: center;
   background-image: url("../img/jumbotron.jpg");
@@ -38,7 +39,7 @@ blockquote {
   color: white;
 }
 
-.btn:hover {
+.btn:hover, #nameBtn:hover {
   color: white;
   background-color: #127796;
 }

@@ -11,7 +11,7 @@ _This is a basic quiz using if/else if/else logic. The quiz results return a cod
 
 ## GH Pages link:
 
-[link](http://example.com)
+[link]http://jennifer-kinsey.github.io/track-suggester
 
 ## Setup/Installation Requirements
 
