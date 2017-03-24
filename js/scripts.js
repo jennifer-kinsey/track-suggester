@@ -2,6 +2,9 @@ $(document).ready(function(){
   $("form#track-suggester").submit(function(event){
     event.preventDefault();
     $("form").hide();
+    var name = $("input#inputName").val();
+    $(".yourName").text(name);
+
     var number1 = parseInt($("#question1").val());
     var number2 = parseInt($("#question2").val());
     var number3 = parseInt($("#question3").val());
@@ -9,6 +12,8 @@ $(document).ready(function(){
     var number5 = parseInt($("#question5").val());
 
     var total = number1 + number2 + number3 + number4 + number5;
+
+
 
     if(total >= 5 && total <= 6) {
       $("#ruby").show();
