@@ -1,35 +1,39 @@
 # _Programming Track Suggester_
 
 
-#### _Take a quiz on what you want out of coding and get suggested a coding track, 03/25/17_
+Take a quiz on what you want out of coding and get suggested a coding track, 03/25/17
+Landmarks: learned more about javascript/jQuery. 
 
-#### By _**Jennifer Kinsey**_
+(keeping as a landmark of learning/memories)
+
+### Author
+Jennifer Kinsey
 
 ## Description
 
-_This is a basic quiz using if/else if/else logic. The quiz results return a coding track based upon the values of the selections made during the quiz. Includes a submit and reload button._
+This is a basic quiz using if/else if/else logic. The quiz results return a coding track based upon the values of the selections made during the quiz. Includes a submit and reload button.
 
 ## GH Pages link:
 
-[link]http://jennifer-kinsey.github.io/track-suggester
+http://jennifer-kinsey.github.io/track-suggester
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _Open in Atom or your favorite text editor_
-* _Modify the code to your liking_
+* Clone this repository
+* Open in Atom or your favorite text editor
+* Modify the code to your liking
 
 ## Known Bugs
 
-_None._
+None.
 
 ## Support and contact details
 
-_Contact Kinsey - kinseyplusplus@gmail.com_
+Contact Kinsey - kinseyplusplus@gmail.com
 
 ## Technologies Used
 
-_HTML, CSS, jQuery, and Bootstrap_
+HTML, CSS, jQuery, and Bootstrap
 
 ### License
 
